@@ -20,6 +20,6 @@
 		}
 to
 	{
-	tramsform: roatate(360deg);
+	transform: rotate(360deg);
 }
 }
