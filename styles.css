@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.container{
+	width:300px;
+	height:300px;
+     display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color: #e7e7e7;
+}
+#line{
+	width:200px;
+	height:2px;
+	background-Color:black;
+	animation:move 1s linear infinite;
+
+}
+@keyframes move{
+		from{
+			transform:rotate(0deg);
+		
+		}
+to{
+	tramsform: roatate(360deg);
+}
+}
