@@ -12,7 +12,7 @@
 	height:2px;
 	background-Color:black;
 	animation:move 5s linear infinite;
-
+    position:absolute;
 }
 @keyframes move{
 		from{
